@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-#こちらの記事より
-#http://qiita.com/bluemooninc/items/075a658f0d2c7ac62efc
+#関係のないファイル
 
 import requests
 import json

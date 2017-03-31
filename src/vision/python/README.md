@@ -1,14 +1,6 @@
-# google_cloud_api_tools
 
-## goal
-google apiを簡単に動かせるスクリプト複数言語で提供
-<br>
-<br>
-
-## 言語環境
-python,bash
-<br>
-必要に応じて
+## バージョン
+python2.7
 <br>
 
 ## 使い方
