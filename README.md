@@ -73,7 +73,7 @@ python text_detection.py ../../../img/text/receipt.jpg
 - 検出結果    
 
 
-<img src="https://github.com/miyamotok0105/google_cloud_api_tools/blob/master/img/text/receipt_result.jpg" height="500">
+<img src="https://github.com/miyamotok0105/google_cloud_api_tools/blob/master/img/text/receipt_result.jpg" height="500">    
 
 
 ## 連絡先
