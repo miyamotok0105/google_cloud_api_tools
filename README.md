@@ -65,7 +65,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/[FILE_NAME].json"
 <br>
 
 
-## 顔検出のサンプル
+## 顔検出のサンプル(WIP)
 
 
     export GOOGLE_API="XXXXXXXXXXXXXX"
