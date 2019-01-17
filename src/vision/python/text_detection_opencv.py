@@ -22,13 +22,6 @@ class FeatureType(Enum):
 
 
 def draw_boxes_document_area(image, bounds, color):
-    """
-    ImageDraw.Drawのpolygonは多角形の座標指定
-    ((左上のx座標, 左上のy座標), (右下のx座標, 右下のy座標))
-    (x1, y1, x2, y2, x3, y3...)
-    (左上のx座標, 左上のy座標, 右下のx座標, 右下のy座標)
-    ((x1, y1), (x2, y2), (x3, y3)...)
-    """
     for bound in bounds:
         xmin  = int(bound["left"])
         ymin  = int(bound["top"])

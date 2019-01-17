@@ -24,7 +24,13 @@ class FeatureType(Enum):
 
 
 def draw_boxes(image, bounds, color):
-    """Draw a border around the image using the hints in the vector list."""
+    """
+    ImageDraw.Drawのpolygonは多角形の座標指定
+    ((左上のx座標, 左上のy座標), (右下のx座標, 右下のy座標))
+    (x1, y1, x2, y2, x3, y3...)
+    (左上のx座標, 左上のy座標, 右下のx座標, 右下のy座標)
+    ((x1, y1), (x2, y2), (x3, y3)...)
+    """
     draw = ImageDraw.Draw(image)
 
     for bound in bounds:
