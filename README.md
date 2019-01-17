@@ -67,15 +67,20 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/[FILE_NAME].json"
 
 ## 顔検出のサンプル(WIP)
 
+作業中    
 
-    export GOOGLE_API="XXXXXXXXXXXXXX"
-    python face_detection.py
+```
+cd src/vision/python
+export GOOGLE_API="XXXXXXXXXXXXXX"
+python face_detection.py
+```
 
 
 ## テキスト検出サンプル
 
 
 ```
+cd src/vision/python
 python text_detection.py ../../../img/text/receipt.jpg
 ```
 
