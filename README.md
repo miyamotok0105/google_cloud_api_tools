@@ -81,7 +81,9 @@ python face_detection.py
 
 ```
 cd src/vision/python
-python text_detection.py ../../../img/text/receipt.jpg
+python text_detection_image_draw.py ../../../img/text/receipt.jpg
+
+python text_detection_opencv.py ../../../img/text/receipt.jpg
 ```
 
 - 検出結果    
