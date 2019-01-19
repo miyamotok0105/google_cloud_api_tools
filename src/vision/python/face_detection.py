@@ -2,6 +2,9 @@
 #こちらの記事より
 #http://qiita.com/bluemooninc/items/075a658f0d2c7ac62efc
 
+#keyも設定してね
+#export GOOGLE_API="XXXXXXXXXXXXXX"
+
 import requests
 import json
 import base64
@@ -68,8 +71,10 @@ filename = os.path.join(dir, '../../../img/faces/2008_001322.jpg')
 print(filename)
 img = img_to_base64(filename)
 res_json = goog_cloud_vison(img)
+# print(res_json)
 json_desc = get_descs_from_return(res_json)
-print(json_desc)
+
+# print(json_desc)
 update_json_file(json_desc)
 
 

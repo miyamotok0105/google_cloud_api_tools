@@ -45,9 +45,23 @@ def get_document_area(image_file, feature):
 
     for page in document.pages:
         for block in page.blocks:
+            print('\nBlock confidence: {}\n'.format(block.confidence))
+
             for paragraph in block.paragraphs:
+                print('Paragraph confidence: {}'.format(
+                    paragraph.confidence))
+
                 for word in paragraph.words:
+                    word_text = ''.join([
+                        symbol.text for symbol in word.symbols
+                    ])
+                    print('Word text: {} (confidence: {})'.format(
+                        word_text, word.confidence))
+
                     for symbol in word.symbols:
+                        print('\tSymbol: {} (confidence: {})'.format(
+                            symbol.text, symbol.confidence))
+                        
                         if (feature == FeatureType.SYMBOL):
                             bounds.append(convert_format(symbol.bounding_box))
 
