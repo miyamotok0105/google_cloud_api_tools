@@ -6,7 +6,7 @@ google apiを簡単に動かせるスクリプトを提供
 <br>
 
 
-## 環境
+## Env
 python,bash
 <br>
 
@@ -65,7 +65,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/[FILE_NAME].json"
 <br>
 
 
-## 顔検出のサンプル(WIP)
+## Sample of Face Detection(WIP)
 
 作業中    
 
@@ -76,7 +76,7 @@ python face_detection.py
 ```
 
 
-## テキスト検出サンプル
+## Sample of Text Detection
 
 
 ```
@@ -92,7 +92,16 @@ python text_detection_opencv.py ../../../img/text/receipt.jpg
 <img src="https://github.com/miyamotok0105/google_cloud_api_tools/blob/master/img/text/receipt_result.jpg" height="500">    
 
 
-## 連絡先
+## Reference
+
+I think google cloud platform git is best for to learn how to use gcp api.    
+
+- detect    
+
+https://github.com/GoogleCloudPlatform/python-docs-samples/blob/master/vision/cloud-client/detect/detect.py
+
+
+## Contact
 miyamotok0105@gmail.com
 <br>
 
